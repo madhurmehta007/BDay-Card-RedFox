@@ -34,8 +34,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:lottie_autoPlay="true"
+            app:lottie_fileName="@string/lottie"
             app:lottie_loop="false"
-            app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_mprazpz2.json" />
+            />
+
+<!--app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_mprazpz2.json"-->
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
