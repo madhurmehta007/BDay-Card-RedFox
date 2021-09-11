@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BDayCard">
         <activity
+            android:name=".CardLayoutManager"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">

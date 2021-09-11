@@ -1,6 +1,7 @@
 package com.redfox.bdaycard
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.redfox.bdaycard.databinding.ActivityMainBinding
@@ -14,10 +15,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setupAnim()
         touchAnim()
+        binding.cardBtnWelcome.setOnClickListener {
+            Intent(this,CardLayoutManager::class.java).also {
+                startActivity(it)
+
+            }
+        }
     }
 
     fun setupAnim() {
-        binding.animationView.speed=0.95F
+        binding.animationView.speed=0.90F
         binding.animationView.setMinProgress(0.18F)
         binding.animationView.playAnimation()
     }
