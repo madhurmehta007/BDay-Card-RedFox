@@ -34,18 +34,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_url="https://assets3.lottiefiles.com/packages/lf20_puciaact.json" />
+            app:lottie_loop="false"
+            app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_mprazpz2.json" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardBtnWelcome"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
-        android:backgroundTint="@color/lightRed"
-        app:cardCornerRadius="30dp"
-        android:layout_marginBottom="@dimen/dimen_140"
+        android:backgroundTint="@color/darkBlack"
+        app:cardCornerRadius="35dp"
+        android:layout_marginBottom="@dimen/dimen_80"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
