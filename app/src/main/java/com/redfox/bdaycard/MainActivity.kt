@@ -13,11 +13,18 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setupAnim()
+        touchAnim()
     }
 
     fun setupAnim() {
         binding.animationView.speed=0.95F
         binding.animationView.setMinProgress(0.18F)
         binding.animationView.playAnimation()
+    }
+
+    fun touchAnim() {
+        binding.animationView.setOnClickListener {
+            binding.animationView.playAnimation()
+        }
     }
 }
