@@ -20,5 +20,6 @@
     <color name="lightMagenta">#E96FFF</color>
     <color name="darkBlack">#272727</color>
     <color name="grey">#555555</color>
+    <color name="colorPrimary">@color/brightRed</color>
 
 </resources>
