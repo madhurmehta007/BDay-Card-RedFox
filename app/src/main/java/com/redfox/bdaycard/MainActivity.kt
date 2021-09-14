@@ -1,7 +1,5 @@
 package com.redfox.bdaycard
 
-import android.annotation.SuppressLint
-import android.app.ActivityOptions
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -20,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding.cardBtnWelcome.setOnClickListener {
             Intent(this,CardLayoutManager::class.java).also {
                 startActivity(it)
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+                overridePendingTransition(R.anim.slide_out, R.anim.slide_in)
             }
         }
     }
